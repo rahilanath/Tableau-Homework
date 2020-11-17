@@ -11,6 +11,7 @@ However, while the data has been regularly updated, the team has yet to implemen
 I used 5 months of data 201911 through 202003 to capture the most recent data not affected by the COVID-19 pandemic. I used a union to merge the [data](Data/JC-201911-citibike-tripdata_Union.csv).
 
 I then created two dashboards:
+
 [Bike Path Dashboard](Tableau/Bike_Path_Dashboard.twbx) -> This dashboard compares the number of records per zip code per capita income using the 2018 census data layer. You should be able to click on each bike station (which increases in size per # of records) to view all ending stations drawn out along with the average trip time in hours.
 
 [Bike Gender Dashboard](Tableau/Bike_Gender_Dashboard.twbx) -> This dashboard breaks down the number of records per user type (customer or subscriber) and genders. This is also reflected in the map which provides Male/Female Ratio per the 2018 census data layer. The start stations can be clicked on to filter the tables on the dashboard.
